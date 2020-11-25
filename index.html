@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>EMMANUEL'S PORTFOLIO</title>
+    </head>
+    <body>
+        <div class="container navbar">
+            <header>
+                <div class="lgo">
+                    <h1>Okoro Emmanuel</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#work">My Work</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="container main-info-section">
+            <div class="text">
+                <h1>
+                    <span>H</span>
+                    <span class="m-left">I</span>
+                    <span class="m-left">,</span>
+                    <br>
+                    <span>I</span>
+                    <span class="m-left">'</span>
+                    <span class="m-left">m </span> &nbsp;
+                    <span class="m-left">E</span>
+                    <span class="m-left">m</span>
+                    <span class="m-left">m</span>
+                    <span class="m-left">a</span>
+                    <span class="m-left">n</span>
+                    <span class="m-left">u</span>
+                    <span class="m-left">e</span>
+                    <span class="m-left">l</span>
+                    <span class="m-left">,</span>
+                    <br>
+                    <span>W</span>
+                    <span class="m-left">e</span>
+                    <span class="m-left">b</span>
+                    <span>D</span>
+                    <span class="m-left">e</span>
+                    <span class="m-left">s</span>
+                    <span class="m-left">i</span>
+                    <span class="m-left">g</span>
+                    <span class="m-left">n</span>
+                    <span class="m-left">e</span>
+                    <span class="m-left">r</span>
+                    <span class="m-left">.</span>
+                </h1>
+                <p>CSS / JAVASCRIPT / GRAPHICS DESIGN</p>
+                <a href="#contact">Contact me</a>
+            </div>
+            <div class="profile-image">
+                <img src="img/Profile-Image-3.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="container about" id="about">
+            <h1>About</h1>
+            <div class="about-me-info">
+                 <p>Hello, I'm Okoro Emmanuel Chiehiura, 21 Year's Old. Born On The 6th April 1999, And Lives In Nigeria,Port Harcourt City.
+                    I'm a Graduate Of National Instiute In Technology(N.I.I.T) Graduated In The Year 2020 September.</p>
+                 <p>Am a Software Engineer, Front-End-Web Developer, Android Developer, Graphics Designer, Drone Developer, UI/UX Developer,
+                     Amatuer Computer Specialist. I Have 2 Year's Experience In Web Development And 1 Year Experience In Graphics And Android Development.
+                 </p>
+                 <p>I Am a Very Challenging Person, Hard Worker, Puntual And Has Good Interactive Skills With My Group Member's And Co-Worker's.
+                     I Also a Free Lance Worker. I Am Willing To Change Destination To Work At Anywhere You Want Me To. I Love Exploring New Places,
+                     Meeting New People And Love Working On New Projects And Lot's More.Thank You For Viewing My Portfolio And I Wish To Get an Awesome 
+                     Work Place.
+                 </p>
+            </div>
+            <img src="img/dotted-shape.png">
+        </div>
+
+        <div class="container skills" id="skills">
+            <h1>Skills</h1>
+            <p class="Skills-info">
+
+            </p>
+            <div class="html">
+                <div class="tag-html">
+                    <p>ANIMATION</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-html"></div>
+                </div>
+            </div>
+            <div class="html">
+                <div class="tag-css">
+                    <p>HTML</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-css"></div>
+                </div>
+            </div>
+            <div class="html">
+                <div class="tag-javascript">
+                    <p>JAVASCRIPT</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-javascript"></div>
+                </div>
+            </div>
+            <div class="html">
+                <div class="tag-react">
+                    <p>FLUTTER</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-react"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container work" id="work">
+            <h1>Work</h1>
+            <div class="work-category">
+                <button id="designing" class="active"onclick="showRequiredCatergory(this)">Web Designing</button>
+                <button id="animation" onclick="showRequiredCatergory(this)">Web Animation</button>
+                <button id="project" onclick="showRequiredCatergory(this)">React Projects</button>
+            </div>
+            <div class="category-designing showCategory">
+                <a href=""><img src=""></a>
+                <a href=""><img src=""></a>
+                <a href=""><img src=""></a>
+                <a href=""><img src=""></a>
+                <a href=""><img src=""></a>
+            </div>
+        </div>
+        <div class="category-animation hideCategory">
+            <a href=""><img src="img/1.jpg"></a>
+            <a href=""><img src="img/2.jpg"></a>
+            <a href=""><img src="img/3.jpg"></a>
+        </div>
+        <div class="category-project hideCategory">
+            <a href=""><img src="img/1.jpg"></a>
+            <a href=""><img src="img/2.jpg"></a>
+            <a href=""><img src="img/3.jpg"></a>
+        </div>
+    </div>
+
+    <div class="container contact" id="contact">
+        <h1>Contact</h1>
+        <form>
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Portfoliopersonemail@example.com" disabled>
+            <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+
+    <footer>
+        <hr>
+        <p>2020 Copyright. All Rights Reserved.</p>
+    </footer>
+        <script src="js/ScrollMagic.min.js"></script>
+        <script src="js/animation.gsap.min.js"></script>
+        <script src="js/TimeLineLite.min.js"></script>
+        <script src="js/TwinMax.min.js"></script>
+        <script src="js/CSSPlugin.min.js"></script>
+        <script src="js/script.min.js"></script>
+    </body>
+</html>
